@@ -1,0 +1,127 @@
+@media only screen and ( max-width: 600px ){
+
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+.Contact{
+    text-align: left;
+    padding-left: 20%;
+    margin-top: 40px;
+}
+.intro {
+    margin: 20px 0px;
+    background-color:white;
+   
+    border-radius: 5px;
+    border: px solid black;
+}
+.intro-title,.jnvlife_title{
+    position: relative;
+    left: -25px;
+    top:-2px;
+    margin: 0px;
+    text-align: left;
+    padding: 10px;
+    padding-left: 20px;
+    width: 200px;
+   background-color:#275379;
+    height: 40px;
+    
+    
+}
+.introduction p{
+    font-size: 15px;
+    line-height: 200%;
+}
+.panel{
+    margin-top: 20px;
+}
+.panel-title{
+    text-align: center;
+}
+.panel-heading{
+    background-color: #275379;
+}
+.panel-body{
+    margin: 0px;
+    height: 200px;
+    overflow-y:hidden;
+}
+
+.jnvlife{
+  border: 1px solid black;
+    margin-top:20px;
+   padding: 0px;
+   margin-bottom: 20px;
+   
+}
+
+.section2{
+  
+    margin-top: 0px;
+    border: px solid black;
+    margin-bottom: 0px;
+   height: 250px;
+}
+
+
+.row-section2{
+    
+    background-image: url(img/peace.jpg) ;
+    background-attachment:fixed;
+    background-size:cover;
+    height:100%;
+
+     background-repeat: no-repeat;
+}
+
+
+.footer-contain{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: unset;
+     height: 0px;
+    margin-top: 0px;
+   
+}
+.address1,.address2,.address3{
+	margin: 20px 25px;
+    background-color: white;
+    opacity: .8;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    color:black;
+  margin-bottom: 10px;
+   text-align:center;
+}
+
+.address3 a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.address2 a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.showhover{
+	visibility: hidden;
+}
+
+.dropdown-toggle,.dropdown-menu{
+	visibility: visible;
+}
+
+
+
+}
+
+
+
